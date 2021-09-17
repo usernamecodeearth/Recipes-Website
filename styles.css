@@ -13,12 +13,23 @@
   padding-bottom: 2.5rem;
 }
 
+/* Home page */
+header {
+  margin-bottom: -20px;
+}
+
 nav {
   display: flex;
   align-self: center;
   justify-content: space-between;
   padding-left: 20px;
   margin-right: 10px;
+}
+
+input {
+  border: 2px solid rgb(22, 177, 224);
+  border-radius: 4px;
+  outline: none;
 }
 
 ul > a,
@@ -36,6 +47,7 @@ a:hover {
 }
 
 /*section 1*/
+
 section {
   display: flex;
   flex-direction: column;
@@ -47,20 +59,20 @@ section {
   font-size: 30px;
   margin-bottom: 50px;
   text-align: center;
-  margin: 0px 80px 40px 80px;
+  margin: -10px 80px 40px 80px;
   text-align: left;
 }
 
 .titleContainer > p {
-    margin-top: -10px;
-    color: rgb(185, 174, 16);
+  margin: 0px 0px 50px 0px;
+  color: rgb(168, 168, 1);
 }
 
 .pageTitle {
   font-size: 45px;
   margin-bottom: 10px;
   color: rgb(22, 177, 224);
-  
+  font-weight: bold;
 }
 
 .readMore {
@@ -79,7 +91,6 @@ p {
   text-align: left;
 }
 
-
 .recipeImageTop {
   border-radius: 10px;
   height: 400px;
@@ -89,6 +100,7 @@ p {
 .imageContainer {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .recipes {
@@ -119,7 +131,6 @@ p {
 .recipeImage:hover {
   transition: transform 125ms;
   transform: translateY(-10px);
-  cursor: pointer;
 }
 
 .logo {
@@ -127,6 +138,88 @@ p {
   width: 40px;
   border-radius: 50%;
 }
+
+/* All Recipe Pages */
+
+.titleAndPhoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipePageImage {
+  height: 45vh;
+  width: 75vh;
+  border-radius: 10px;
+}
+
+.recipePageTitle {
+  color: rgb(22, 177, 224);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.recipePageTitleAndSubtitle {
+  text-align: center;
+  margin: 80px 0px 40px 0px;
+}
+
+.subtitle {
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 10px 90px 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.recipeList{
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0em 1em;
+    margin:0 10px 0 100px;
+    font-size: 20px;
+}
+
+.recipeList > h1 {
+  text-decoration: underline;
+}
+
+.recipeItems {
+  width: 250px;
+
+}
+
+.omegaMartLemonsLink {
+  color: red;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.omegaMartMilkLink {
+  text-decoration: underline;
+  color: rgb(22, 177, 224);
+}
+
+.directions {
+  font-size: 22px;
+  width: 570px;
+  
+}
+
+.directions > h1{
+  
+  text-decoration: underline;
+
+}
+
+
 
 /* Footer */
 footer {
